@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct DynamicNotchApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Window("DynamicNotch", id: "settings") {
+            Text("Settings")
+        }
+        MenuBarExtra("DynamicNotch", systemImage: "bolt.horizontal.fill") {
+            Section {
+                Text("DynamicNotch")
+            }
         }
     }
 }

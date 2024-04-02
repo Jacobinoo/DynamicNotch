@@ -11,6 +11,10 @@
 		8C5550EE2BB456A70079B26A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5550ED2BB456A70079B26A /* ContentView.swift */; };
 		8C5550F02BB456A70079B26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5550EF2BB456A70079B26A /* Assets.xcassets */; };
 		8C5550F32BB456A70079B26A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5550F22BB456A70079B26A /* Preview Assets.xcassets */; };
+		8C5550FB2BB458840079B26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5550FA2BB458840079B26A /* AppDelegate.swift */; };
+		8C55D9C12BBC038200CC8899 /* EyesProtectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C55D9C02BBC038200CC8899 /* EyesProtectView.swift */; };
+		8CEF5BCB2BB4AAF0004D1E18 /* NotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */; };
+		8CEF5BCD2BB4AC94004D1E18 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF5BCC2BB4AC94004D1E18 /* Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		8C5550EF2BB456A70079B26A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C5550F22BB456A70079B26A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C5550F42BB456A70079B26A /* DynamicNotch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicNotch.entitlements; sourceTree = "<group>"; };
+		8C5550FA2BB458840079B26A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C55D9C02BBC038200CC8899 /* EyesProtectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesProtectView.swift; sourceTree = "<group>"; };
+		8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchView.swift; sourceTree = "<group>"; };
+		8CEF5BCC2BB4AC94004D1E18 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				8C5550EB2BB456A70079B26A /* DynamicNotchApp.swift */,
+				8CEF5BCC2BB4AC94004D1E18 /* Screen.swift */,
 				8C5550ED2BB456A70079B26A /* ContentView.swift */,
+				8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */,
+				8C55D9C02BBC038200CC8899 /* EyesProtectView.swift */,
 				8C5550EF2BB456A70079B26A /* Assets.xcassets */,
 				8C5550F42BB456A70079B26A /* DynamicNotch.entitlements */,
+				8C5550FA2BB458840079B26A /* AppDelegate.swift */,
 				8C5550F12BB456A70079B26A /* Preview Content */,
 			);
 			path = DynamicNotch;
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEF5BCD2BB4AC94004D1E18 /* Screen.swift in Sources */,
+				8C5550FB2BB458840079B26A /* AppDelegate.swift in Sources */,
+				8CEF5BCB2BB4AAF0004D1E18 /* NotchView.swift in Sources */,
 				8C5550EE2BB456A70079B26A /* ContentView.swift in Sources */,
+				8C55D9C12BBC038200CC8899 /* EyesProtectView.swift in Sources */,
 				8C5550EC2BB456A70079B26A /* DynamicNotchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +295,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicNotch/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +325,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicNotch/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
