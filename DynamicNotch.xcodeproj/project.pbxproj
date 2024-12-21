@@ -23,6 +23,8 @@
 		8C5550FB2BB458840079B26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5550FA2BB458840079B26A /* AppDelegate.swift */; };
 		8C621BDC2D11E8ED00664276 /* Ext+NSScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C621BDB2D11E8E900664276 /* Ext+NSScreen.swift */; };
 		8C621BDE2D12169300664276 /* VisionProtectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C621BDD2D12167D00664276 /* VisionProtectView.swift */; };
+		8CCB9AEA2D16EFE7004B0E81 /* StandUpActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB9AE92D16EFE7004B0E81 /* StandUpActivity.swift */; };
+		8CCB9AEC2D16F0A1004B0E81 /* StandUpActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB9AEB2D16F0A1004B0E81 /* StandUpActivityView.swift */; };
 		8CEF5BCB2BB4AAF0004D1E18 /* NotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		8C5550FA2BB458840079B26A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C621BDB2D11E8E900664276 /* Ext+NSScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+NSScreen.swift"; sourceTree = "<group>"; };
 		8C621BDD2D12167D00664276 /* VisionProtectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProtectView.swift; sourceTree = "<group>"; };
+		8CCB9AE92D16EFE7004B0E81 /* StandUpActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandUpActivity.swift; sourceTree = "<group>"; };
+		8CCB9AEB2D16F0A1004B0E81 /* StandUpActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandUpActivityView.swift; sourceTree = "<group>"; };
 		8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,7 @@
 			children = (
 				8C2B60412D1411D700C93FC6 /* TimerActivity.swift */,
 				8C2B603F2D140EEC00C93FC6 /* VisionProtectActivity.swift */,
+				8CCB9AE92D16EFE7004B0E81 /* StandUpActivity.swift */,
 				8C50B6E42CA0889E00C7329D /* NotchViewModel.swift */,
 			);
 			path = Model;
@@ -131,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				8C621BDD2D12167D00664276 /* VisionProtectView.swift */,
+				8CCB9AEB2D16F0A1004B0E81 /* StandUpActivityView.swift */,
 				8C2B60432D14143B00C93FC6 /* TimerActivityView.swift */,
 				8C5550ED2BB456A70079B26A /* ContentView.swift */,
 				8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */,
@@ -219,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCB9AEA2D16EFE7004B0E81 /* StandUpActivity.swift in Sources */,
 				8C2B60422D1411D700C93FC6 /* TimerActivity.swift in Sources */,
 				8C2B60402D140EEC00C93FC6 /* VisionProtectActivity.swift in Sources */,
 				8C5550FB2BB458840079B26A /* AppDelegate.swift in Sources */,
@@ -231,6 +238,7 @@
 				8C5550EE2BB456A70079B26A /* ContentView.swift in Sources */,
 				8C2B603A2D140E9800C93FC6 /* NotchActivity.swift in Sources */,
 				8C2B60362D140E7800C93FC6 /* ActivitySize.swift in Sources */,
+				8CCB9AEC2D16F0A1004B0E81 /* StandUpActivityView.swift in Sources */,
 				8C2B60372D140E7D00C93FC6 /* ActivityDismissalReason.swift in Sources */,
 				8C5550EC2BB456A70079B26A /* DynamicNotchApp.swift in Sources */,
 				8C50B6E52CA0889E00C7329D /* NotchViewModel.swift in Sources */,

@@ -18,6 +18,8 @@ struct NotchView: View {
                 VisionProtectView()
             case is TimerActivity:
                 TimerActivityView()
+            case is StandUpActivity:
+                StandUpActivityView()
             default:
                 EmptyView()
             }

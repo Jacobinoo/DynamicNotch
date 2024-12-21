@@ -11,7 +11,7 @@ struct VisionProtectActivity: NotchActivity {
     static let supportedFrameSizes: [ActivitySize : CGSize] = [
         .expanded: CGSize(width: AppDelegate.screen.notchSize.width+70, height: AppDelegate.screen.notchSize.height+41),
     ]
-    static let timeToDie: TimeInterval = 10
+    static let timeToDie: TimeInterval = 20
     var disapearAfterTimer: Timer
     var frameSize: CGSize
     

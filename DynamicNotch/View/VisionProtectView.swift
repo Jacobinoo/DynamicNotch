@@ -16,7 +16,7 @@ struct VisionProtectView: View {
             Text("Protect Your Vision")
                 .font(.system(.title3, design: .rounded, weight: .semibold))
                 .foregroundStyle(.yellow)
-            Text("Look away for a moment")
+            Text("Look away for 20 seconds")
                 .font(.caption2)
                 .foregroundStyle(.white)
         }.padding(.horizontal, 20)

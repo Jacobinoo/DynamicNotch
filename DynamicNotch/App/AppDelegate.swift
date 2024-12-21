@@ -18,6 +18,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var visionProtectTimer: Timer = Timer.scheduledTimer(withTimeInterval: 20*60, repeats: true) { _ in
         AppDelegate.notchViewModel.startActivity(VisionProtectActivity())
     }
+    var standUpTimer: Timer = Timer.scheduledTimer(withTimeInterval: 30*60, repeats: true) { _ in
+        AppDelegate.notchViewModel.startActivity(StandUpActivity())
+    }
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         visionProtectTimer.tolerance = 0.1
@@ -36,6 +39,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func forceVisionProtectAlert() {
         DispatchQueue.main.async {
             self.visionProtectTimer.fire()
+        }
+    }
+    
+    func forceStandUpReminder() {
+        DispatchQueue.main.async {
+            self.standUpTimer.fire()
         }
     }
 }

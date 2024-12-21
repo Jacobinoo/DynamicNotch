@@ -24,6 +24,11 @@ struct DynamicNotchApp: App {
                 Text("Force Vision Alert")
             }
             Button {
+                appDelegate.forceStandUpReminder()
+            } label: {
+                Text("Force Stand Up Reminder")
+            }
+            Button {
                 AppDelegate.notchViewModel.startActivity(TimerActivity())
             } label: {
                 Text("Start 1-Min Timer")

@@ -1,5 +1,5 @@
 //
-//  VisionProtectView.swift
+//  StandUpActivityView.swift
 //  DynamicNotch
 //
 //  Created by Jakub on 17/12/2024.
@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct VisionProtectView: View {
+struct StandUpActivityView: View {
     @EnvironmentObject var viewModel: NotchViewModel
     
     var body: some View {
         VStack {
             Spacer()
-            Text("Protect Your Vision")
+            Text("Stand Up")
                 .font(.system(.title3, design: .rounded, weight: .semibold))
-                .foregroundStyle(.yellow)
-            Text("Look away for 20 seconds")
+                .foregroundStyle(.cyan)
+            Text("Do not sit for 2 minutes from now")
                 .font(.caption2)
                 .foregroundStyle(.white)
         }.padding(.horizontal, 20)
