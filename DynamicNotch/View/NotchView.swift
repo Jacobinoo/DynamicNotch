@@ -16,6 +16,8 @@ struct NotchView: View {
             switch viewModel.notchActivity {
             case is VisionProtectActivity:
                 VisionProtectView()
+            case is TimerActivity:
+                TimerActivityView()
             default:
                 EmptyView()
             }

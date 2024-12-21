@@ -16,7 +16,22 @@ struct DynamicNotchApp: App {
         }
         MenuBarExtra("DynamicNotch", systemImage: "bolt.horizontal.fill") {
             Section {
-                Text("DynamicNotch")
+                Text("Dynamic Notch")
+            }
+            Button {
+                appDelegate.forceVisionProtectAlert()
+            } label: {
+                Text("Force Vision Alert")
+            }
+            Button {
+                AppDelegate.notchViewModel.startActivity(TimerActivity())
+            } label: {
+                Text("Start 1-Min Timer")
+            }
+            Button {
+                exit(0)
+            } label: {
+                Text("Exit")
             }
         }
     }

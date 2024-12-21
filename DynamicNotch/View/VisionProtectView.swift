@@ -23,7 +23,3 @@ struct VisionProtectView: View {
             .padding(.vertical, 10)
     }
 }
-
-#Preview {
-    VisionProtectView()
-}

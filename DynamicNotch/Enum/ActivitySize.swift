@@ -6,7 +6,7 @@
 //
 
 enum ActivitySize {
-    case small
-    case medium
-    case large
+    case compact
+    case expanded
+   // case minimal
 }

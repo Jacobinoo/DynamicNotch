@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2B60362D140E7800C93FC6 /* ActivitySize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B60352D140DDD00C93FC6 /* ActivitySize.swift */; };
+		8C2B60372D140E7D00C93FC6 /* ActivityDismissalReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B60342D140DCA00C93FC6 /* ActivityDismissalReason.swift */; };
+		8C2B603A2D140E9800C93FC6 /* NotchActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B60392D140E9300C93FC6 /* NotchActivity.swift */; };
+		8C2B603C2D140EC100C93FC6 /* NotchExpandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B603B2D140EC100C93FC6 /* NotchExpandType.swift */; };
+		8C2B603E2D140ED100C93FC6 /* NotchSizeResetReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B603D2D140ED100C93FC6 /* NotchSizeResetReason.swift */; };
+		8C2B60402D140EEC00C93FC6 /* VisionProtectActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B603F2D140EEC00C93FC6 /* VisionProtectActivity.swift */; };
+		8C2B60422D1411D700C93FC6 /* TimerActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B60412D1411D700C93FC6 /* TimerActivity.swift */; };
+		8C2B60442D14143B00C93FC6 /* TimerActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B60432D14143B00C93FC6 /* TimerActivityView.swift */; };
+		8C50B6E52CA0889E00C7329D /* NotchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6E42CA0889E00C7329D /* NotchViewModel.swift */; };
 		8C5550EC2BB456A70079B26A /* DynamicNotchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5550EB2BB456A70079B26A /* DynamicNotchApp.swift */; };
 		8C5550EE2BB456A70079B26A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5550ED2BB456A70079B26A /* ContentView.swift */; };
 		8C5550F02BB456A70079B26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5550EF2BB456A70079B26A /* Assets.xcassets */; };
 		8C5550F32BB456A70079B26A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5550F22BB456A70079B26A /* Preview Assets.xcassets */; };
 		8C5550FB2BB458840079B26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5550FA2BB458840079B26A /* AppDelegate.swift */; };
-		8C55D9C12BBC038200CC8899 /* EyesProtectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C55D9C02BBC038200CC8899 /* EyesProtectView.swift */; };
+		8C621BDC2D11E8ED00664276 /* Ext+NSScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C621BDB2D11E8E900664276 /* Ext+NSScreen.swift */; };
+		8C621BDE2D12169300664276 /* VisionProtectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C621BDD2D12167D00664276 /* VisionProtectView.swift */; };
 		8CEF5BCB2BB4AAF0004D1E18 /* NotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */; };
-		8CEF5BCD2BB4AC94004D1E18 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF5BCC2BB4AC94004D1E18 /* Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C2B60342D140DCA00C93FC6 /* ActivityDismissalReason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDismissalReason.swift; sourceTree = "<group>"; };
+		8C2B60352D140DDD00C93FC6 /* ActivitySize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySize.swift; sourceTree = "<group>"; };
+		8C2B60392D140E9300C93FC6 /* NotchActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchActivity.swift; sourceTree = "<group>"; };
+		8C2B603B2D140EC100C93FC6 /* NotchExpandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchExpandType.swift; sourceTree = "<group>"; };
+		8C2B603D2D140ED100C93FC6 /* NotchSizeResetReason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchSizeResetReason.swift; sourceTree = "<group>"; };
+		8C2B603F2D140EEC00C93FC6 /* VisionProtectActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProtectActivity.swift; sourceTree = "<group>"; };
+		8C2B60412D1411D700C93FC6 /* TimerActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerActivity.swift; sourceTree = "<group>"; };
+		8C2B60432D14143B00C93FC6 /* TimerActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerActivityView.swift; sourceTree = "<group>"; };
+		8C50B6E42CA0889E00C7329D /* NotchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchViewModel.swift; sourceTree = "<group>"; };
 		8C5550E82BB456A70079B26A /* DynamicNotch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicNotch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5550EB2BB456A70079B26A /* DynamicNotchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicNotchApp.swift; sourceTree = "<group>"; };
 		8C5550ED2BB456A70079B26A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,9 +43,9 @@
 		8C5550F22BB456A70079B26A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C5550F42BB456A70079B26A /* DynamicNotch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicNotch.entitlements; sourceTree = "<group>"; };
 		8C5550FA2BB458840079B26A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C55D9C02BBC038200CC8899 /* EyesProtectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesProtectView.swift; sourceTree = "<group>"; };
+		8C621BDB2D11E8E900664276 /* Ext+NSScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+NSScreen.swift"; sourceTree = "<group>"; };
+		8C621BDD2D12167D00664276 /* VisionProtectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProtectView.swift; sourceTree = "<group>"; };
 		8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchView.swift; sourceTree = "<group>"; };
-		8CEF5BCC2BB4AC94004D1E18 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C2B60322D140D9000C93FC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B60412D1411D700C93FC6 /* TimerActivity.swift */,
+				8C2B603F2D140EEC00C93FC6 /* VisionProtectActivity.swift */,
+				8C50B6E42CA0889E00C7329D /* NotchViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C2B60332D140DA700C93FC6 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B603D2D140ED100C93FC6 /* NotchSizeResetReason.swift */,
+				8C2B603B2D140EC100C93FC6 /* NotchExpandType.swift */,
+				8C2B60352D140DDD00C93FC6 /* ActivitySize.swift */,
+				8C2B60342D140DCA00C93FC6 /* ActivityDismissalReason.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		8C2B60382D140E8E00C93FC6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B60392D140E9300C93FC6 /* NotchActivity.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		8C5550DF2BB456A70079B26A = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +107,14 @@
 		8C5550EA2BB456A70079B26A /* DynamicNotch */ = {
 			isa = PBXGroup;
 			children = (
-				8C5550EB2BB456A70079B26A /* DynamicNotchApp.swift */,
-				8CEF5BCC2BB4AC94004D1E18 /* Screen.swift */,
-				8C5550ED2BB456A70079B26A /* ContentView.swift */,
-				8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */,
-				8C55D9C02BBC038200CC8899 /* EyesProtectView.swift */,
-				8C5550EF2BB456A70079B26A /* Assets.xcassets */,
-				8C5550F42BB456A70079B26A /* DynamicNotch.entitlements */,
-				8C5550FA2BB458840079B26A /* AppDelegate.swift */,
+				8C2B60382D140E8E00C93FC6 /* Protocol */,
+				8C2B60332D140DA700C93FC6 /* Enum */,
+				8CB1491A2BBD96D300AAF694 /* View */,
+				8C2B60322D140D9000C93FC6 /* Model */,
+				8CB1491B2BBD972A00AAF694 /* App */,
 				8C5550F12BB456A70079B26A /* Preview Content */,
+				8C5550F42BB456A70079B26A /* DynamicNotch.entitlements */,
+				8C5550EF2BB456A70079B26A /* Assets.xcassets */,
 			);
 			path = DynamicNotch;
 			sourceTree = "<group>";
@@ -79,6 +125,27 @@
 				8C5550F22BB456A70079B26A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CB1491A2BBD96D300AAF694 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C621BDD2D12167D00664276 /* VisionProtectView.swift */,
+				8C2B60432D14143B00C93FC6 /* TimerActivityView.swift */,
+				8C5550ED2BB456A70079B26A /* ContentView.swift */,
+				8CEF5BCA2BB4AAF0004D1E18 /* NotchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CB1491B2BBD972A00AAF694 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8C5550FA2BB458840079B26A /* AppDelegate.swift */,
+				8C5550EB2BB456A70079B26A /* DynamicNotchApp.swift */,
+				8C621BDB2D11E8E900664276 /* Ext+NSScreen.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,10 +176,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					8C5550E72BB456A70079B26A = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -151,12 +219,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEF5BCD2BB4AC94004D1E18 /* Screen.swift in Sources */,
+				8C2B60422D1411D700C93FC6 /* TimerActivity.swift in Sources */,
+				8C2B60402D140EEC00C93FC6 /* VisionProtectActivity.swift in Sources */,
 				8C5550FB2BB458840079B26A /* AppDelegate.swift in Sources */,
+				8C621BDC2D11E8ED00664276 /* Ext+NSScreen.swift in Sources */,
+				8C2B603C2D140EC100C93FC6 /* NotchExpandType.swift in Sources */,
+				8C2B60442D14143B00C93FC6 /* TimerActivityView.swift in Sources */,
+				8C2B603E2D140ED100C93FC6 /* NotchSizeResetReason.swift in Sources */,
 				8CEF5BCB2BB4AAF0004D1E18 /* NotchView.swift in Sources */,
+				8C621BDE2D12169300664276 /* VisionProtectView.swift in Sources */,
 				8C5550EE2BB456A70079B26A /* ContentView.swift in Sources */,
-				8C55D9C12BBC038200CC8899 /* EyesProtectView.swift in Sources */,
+				8C2B603A2D140E9800C93FC6 /* NotchActivity.swift in Sources */,
+				8C2B60362D140E7800C93FC6 /* ActivitySize.swift in Sources */,
+				8C2B60372D140E7D00C93FC6 /* ActivityDismissalReason.swift in Sources */,
 				8C5550EC2BB456A70079B26A /* DynamicNotchApp.swift in Sources */,
+				8C50B6E52CA0889E00C7329D /* NotchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +274,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -223,6 +301,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -260,6 +339,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -278,6 +358,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -286,27 +367,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DynamicNotch/DynamicNotch.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DynamicNotch/Preview Content\"";
 				DEVELOPMENT_TEAM = N5WQX8LSAJ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DynamicNotch/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuba.DynamicNotch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -316,23 +397,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DynamicNotch/DynamicNotch.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DynamicNotch/Preview Content\"";
 				DEVELOPMENT_TEAM = N5WQX8LSAJ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DynamicNotch/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuba.DynamicNotch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
